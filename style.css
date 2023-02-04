@@ -1,0 +1,142 @@
+body {
+  background-color: #adb5bd;
+}
+
+.offer1,
+.offer1 p {
+  display: inline;
+  font-size: 31px;
+  text-align: center;
+  width: 300px;
+  color: red;
+}
+.offer2 {
+  display: inline;
+  font-size: 22px;
+  width: 200px;
+  text-align: center;
+  color: red;
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+}
+.div1-inside,
+.div02,
+.div03,
+.div31,
+.div32 {
+  background-color: #fff;
+  border: 10px solid red;
+  box-shadow: 10px 10px 10px #cc5de8;
+  text-shadow: 5px 0px 5px #cc5de8;
+  border-radius: 10px;
+}
+.div1-inside {
+  padding: 2px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+  width: 227px;
+  padding: 15px 150px;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  color: #a61e4d;
+  line-height: 1.5;
+}
+.div1-inside p {
+  margin: 0;
+}
+.div02 p {
+  margin: 0;
+  font-size: 26px;
+}
+
+.div02,
+.div03 {
+  text-align: center;
+  padding: 5px 10px 30px 10px;
+  display: inline-block;
+  line-height: 1.8;
+}
+.div03 {
+  margin-right: 40px;
+  padding-top: 18px;
+}
+.div31 {
+  line-height: 0.2;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 10px 30px 0px;
+}
+.div32 {
+  margin-right: 20px;
+  padding: 5px 1px 0px 10px;
+}
+.imgborder {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+.div2 {
+  border: 5px solid green;
+  margin-bottom: 50px;
+}
+
+.div002,
+.div3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+form {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+.div4 {
+  margin: 0 auto;
+  width: 800px;
+  background-color: #37b24d;
+  border: 10px solid rgb(112, 7, 112);
+}
+h1 {
+  text-align: center;
+}
+.div4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  gap: 20px;
+}
+.div41,
+.div42,
+.div43 {
+  text-align: center;
+  background-color: #c0eb75;
+  /* text-transform: uppercase; */
+  line-height: 1.8;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.div43 {
+  grid-column: -1/1;
+}
+.offer {
+  position: absolute;
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  border: 10px solid red;
+  border-radius: 20px;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #c0eb75;
+  font-style: italic;
+  bottom: 70px;
+  left: 380px;
+  position: fixed;
+  box-shadow: 10px 10px violet;
+}
